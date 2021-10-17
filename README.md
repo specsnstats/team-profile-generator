@@ -1,5 +1,7 @@
 # Team Profile Generator
 
+![Screenshot of Resulting HTML](./img/screenshot.png)
+
 ## Table of Contents
 
 - [Project Description](./newREADME#project-description)
@@ -20,6 +22,8 @@ To install, simply clone the repository and in cmd, type ```npm i```.
 Your pc will proceed to install the necessary modules for the program to run.
 
 ## Usage Information:
+Video Tutorial: https://youtu.be/Zq2-hA0g16Q
+
 To use the program, simply type in your command line ```node index.js```.
 
 You will then be prompted for the name, id, email, and office number of the manager of the team. 
