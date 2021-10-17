@@ -32,7 +32,7 @@ const addManager = () => {
         }
     ])
     .then(({name, id, email, officeNumber}) => {
-        const myManager = new Manager(name, email, id, officeNumber)
+        const myManager = new Manager(name, id, email, officeNumber)
         team.push(myManager)
         addOptions()
     })
@@ -65,7 +65,7 @@ const addEngineer = () => {
         }
     ])
     .then(({name, id, email, github}) => {
-        const myEngineer = new Engineer(name, email, id, github)
+        const myEngineer = new Engineer(name, id, email, github)
         team.push(myEngineer)
         addOptions()
     })
@@ -98,7 +98,7 @@ const addIntern = () => {
         }
     ])
     .then(({name, id, email, school}) => {
-        const myIntern = new Intern(name, email, id, school)
+        const myIntern = new Intern(name, id, email, school)
         team.push(myIntern)
         addOptions()
     })
